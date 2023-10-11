@@ -1,5 +1,5 @@
 # whatsapp-gateway
-Send whatsapp message with free number to send notifikasi OTP
+Send whatsapp message with free number to send notifikasi 
 
 ## Installation
 This project using composer.
