@@ -4,7 +4,7 @@ Send whatsapp message with free number to send notifikasi OTP
 ## Installation
 This project using composer.
 ```
-$ composer require whatsva/whatsapp-gateway
+$ composer require kejarkoding/whatsapp-gateway
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ Send Message Text .
 
 require './vendor/autoload.php';
 
-use Whatsva\WhatsappGateway\Whatsva;
+use Kejarkoding\WhatsappGateway\Whatsapp;
 
 $config = [
     "client_key"=>"6dHL72Ty",
@@ -24,7 +24,7 @@ $config = [
 $receiver = "62895361034833";
 $message = "Hello, Good morning sir !";
 
-$whatsapp = new Whatsva($config);
+$whatsapp = new Whatsapp($config);
 
 echo $whatsapp->sendMessage($receiver,$message);
 
