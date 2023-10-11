@@ -1,0 +1,19 @@
+{
+    "name": "kejarkoding/whatsapp-gateway",
+    "description": "Whatsapp API to make it easier to manage and or send a message",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kejarkoding\\WhatsappGateway\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "novaariyanto",
+            "email": "bajangsampoerna@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
