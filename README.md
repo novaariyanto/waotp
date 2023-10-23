@@ -22,7 +22,7 @@ $config = [
 ];
 
 $receiver = "62895361034833";
-$message = "Hello, Good morning sir !";
+$message = "Hai Nova Ariyanto, masukkan kode verifikasi OTP : 612322 \n\n kode berlaku 2 menit.";
 
 $whatsapp = new Whatsapp($config);
 
