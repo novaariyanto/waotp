@@ -1,14 +1,15 @@
 # whatsapp-gateway
-Send whatsapp message with free number to send notifikasi 
+Securing made easy!
+This app initiates a One-time Password in Whatsapp using a free number.
 
-## Installation
-This project using composer.
+# Installation
+This project uses composer.
 ```
 $ composer require kejarkoding/whatsapp-gateway
 ```
 
-## Usage
-Send Message Text .
+# Usage
+To send messages:
 ```php
 <?php
 
@@ -31,5 +32,5 @@ echo $whatsapp->sendMessage($receiver,$message);
 ```
 
 ## Get Config 
-client key and secret key are required.
-To get it we have to register at https://kejarkoding.com
+Both client and secret keys are mandatory.
+You could establish them by going to the following website https://kejarkoding.com
