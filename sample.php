@@ -12,7 +12,10 @@ $config = [
 
 $whatsapp = new Whatsapp($config);
 
-$send = $whatsapp->sendMessage("0895361034833","hello admin");
+$receiver = "62895361034833";
+$otp_code = "123456";
+
+$send = $whatsva->sendMessage($receiver,$otp_code);
 print_r($send);
 
 ?>
